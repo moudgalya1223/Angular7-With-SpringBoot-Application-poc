@@ -12,4 +12,4 @@ const routes: Routes = [
   {path : '', component : LoginComponent}
 ];
 
-export const routing = RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' });
+export const routing = RouterModule.forRoot(routes, {});
